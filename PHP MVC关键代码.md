@@ -26,7 +26,7 @@ Route::get('news/index','NewsController@index');  // 首页路由
 Route::get('news/show','NewsController@show');  // 详情页路由
 ```
 
-说明：3-16行代码均是注释代码，不用管
+> 说明：3-16行代码均是注释代码，不用管
 
 ------
 
@@ -84,7 +84,7 @@ class NewsController extends Controller
 }
 ```
 
-说明：考试时灵活选择变法
+> 说明：考试时灵活选择变法
 
 ------
 
