@@ -112,8 +112,8 @@ class NewsController extends Controller
 			@foreach($data as $v)
 				<tr>
 					<td class="news-title">
-    					<a href="/news/show?id={{ $v->id }}">{{ $v->title }}</a>
-    				</td>
+						<a href="/news/show?id={{ $v->id }}">{{ $v->title }}</a>
+					</td>
 					<td class="center">{{ $v->addtime }}</td>					
 				</tr>
 			@endforeach
