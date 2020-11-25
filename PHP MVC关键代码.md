@@ -76,7 +76,7 @@ class NewsController extends Controller
         $id = $request->get('id');  // 获取请求中的id数据
         // 变法1：$id = $request->input('id');
         $news = News::where('id',$id)->first();  // 利用模型查询单个对象
-        // 变法1：$news = News::find(4);
+        // 变法1：$news = News::find($id);
         return view('show')->with(compact('news'));  // 返回视图，并传递数据
         // 变法1：return view('show',['news'=>$news]);
         // 变法2：return view('show',compact('news'));
